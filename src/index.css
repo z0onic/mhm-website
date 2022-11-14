@@ -23,9 +23,38 @@ body {
 
 .header {
   width: 100vw;
+  height: 150px;
   background: var(--red);
 }
 
-.home {
-  
+.menu {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #111;
+  text-align: center;
+}
+
+.nav-link:hover {
+  color: whitesmoke;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 2em 0;
+}
+

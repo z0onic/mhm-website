@@ -4,22 +4,24 @@ import { Link } from 'react-router-dom'
 function Nav() {
     return (
         <div className="header">
-            <nav>
+            <nav className="menu">
                 <ul>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link className="nav-link" to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/services">Services</Link>
+                        <Link className="nav-link" to="/services">Services</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/nomatch">NoMatch</Link>
+                        <Link className="nav-link" to="/about">About</Link>
                     </li>
                 </ul>
             </nav>
+            <div className="contact">
+                <h2 className="cell">cell: 704-930-9692</h2>
+                <h2>logo placeholder</h2>
+                <h2 className="">email: tom.hickson@mhm.coach</h2>
+            </div>
         </div>
     )
 }
