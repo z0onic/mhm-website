@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../Imgs/mhm_logo.png'
 
 function Nav() {
     return (
@@ -19,7 +20,7 @@ function Nav() {
             </nav>
             <div className="contact">
                 <h2 className="cell">cell: 704-930-9692</h2>
-                <h2>logo placeholder</h2>
+                <img src={Logo} alt="mhm logo" />
                 <h2 className="">email: tom.hickson@mhm.coach</h2>
             </div>
         </div>
