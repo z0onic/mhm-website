@@ -18,10 +18,14 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
-            <div className="contact">
-                <h2 className="cell">cell: 704-930-9692</h2>
-                <img src={Logo} alt="mhm logo" />
-                <h2 className="">email: tom.hickson@mhm.coach</h2>
+            <div className="header-info">
+                <div className="logo">
+                    <img className="logo-img" src={Logo} alt="mhm logo" />
+                </div>
+                <div className="contact">
+                    <h2 className="cell">cell: 704-930-9692</h2>
+                    <h2 className="">email: tom.hickson@mhm.coach</h2>
+                </div>
             </div>
         </div>
     )

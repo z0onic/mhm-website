@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
@@ -15,27 +16,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--white);
 }
 
 :root {
-  --red: #c6c7c4;
+  --grey: #c6c7c4;
+  --accent: #ffa630;
+  --accent-dark: #210124;
+  --white: #EEF0F2;
+  --red: #ef3340;
 }
 
 .header {
+  font-family: 'Oswald', sans-serif;
   width: 100vw;
   height: 150px;
-  background: var(--red);
+  background: var(--grey);
+  display: flex;
+  flex-direction: column;
+  padding: 1em .5em;
+  color: var(--accent-dark);
 }
 
 .menu {
-  padding: 15px;
   font-size: 1.2rem;
   font-weight: 800;
+  height: 40%;
 }
 
 .menu ul {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
 }
 
 .menu li {
@@ -52,9 +65,76 @@ body {
   color: whitesmoke;
 }
 
-.contact {
+.header-info {
   display: flex;
   justify-content: space-between;
-  padding: 2em 2em 0;
+  height: 60%;
 }
 
+.contact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 2em;
+}
+
+.logo {
+  margin-top: -2em;
+  padding-left: 1em;
+}
+
+.logo-img {
+  height: 100%;
+}
+
+.home-page {
+  width: 85vw;
+  margin: 3em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.title-block {
+  align-self: flex-end;
+  font-family: 'Oswald', sans-serif;
+  /* border-bottom: 15px solid var(--accent); */
+}
+
+.title-block h1 {
+  font-size: 2rem;
+  color: var(--red);
+  font-weight: 700;
+}
+
+.title-block h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.title-block::before {
+  content: "";
+  position: absolute;
+  width: 405px;
+  height: 15px;
+  transform: skew(-12deg);
+  background: var(--accent);
+  opacity: 70%;
+  z-index: -1;
+  margin-top: 65px;
+}
+
+.item {
+}
+
+.item h3 {
+  font-size: 1.2rem;
+  margin-bottom: .5em;
+  margin-left: -1em;
+}
+
+.item p {
+  width: 700px;
+}
