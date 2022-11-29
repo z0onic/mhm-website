@@ -31,11 +31,17 @@ body {
   font-family: 'Oswald', sans-serif;
   width: 100vw;
   height: 150px;
-  background: var(--grey);
   display: flex;
   flex-direction: column;
   padding: 1em .5em;
   color: var(--accent-dark);
+}
+
+.header-bkgd {
+  height: 150px;
+  object-position: center;
+  object-fit:none;
+  z-index: -2;
 }
 
 .menu {

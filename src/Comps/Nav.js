@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../Imgs/mhm_logo.png'
+import Cranes from '../Imgs/background.jpg'
 
 function Nav() {
     return (
         <div className="header">
+            <img className="header-bkgd" src={Cranes} alt="cranes" />
             <nav className="menu">
                 <ul>
                     <li>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Home() {
+function Title() {
     return (
         <div className="home-page">
             <div className="title-block">
@@ -26,4 +26,5 @@ function Home() {
         </div>
     )
 }
-export default Home
+
+export default Title
