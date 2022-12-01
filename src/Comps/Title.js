@@ -2,7 +2,7 @@ import React from 'react'
 import Headshot from '../Imgs/placeholder.png'
 
 function Title() {
-    document.querySelectorAll('a').forEach( item => item.addEventListener('click', () => console.log('yo')))
+    const log = () => console.log('yo')
 
     return (
         <div id="home" className="home-page">
@@ -13,17 +13,17 @@ function Title() {
             </div>
             <div className="items">
                 <div className="item">
-                    <a href="#fleet" onClick={console.log('clicked')}>FLEET MANAGEMENT:</a>
+                    <a href="#fleet" onClick={log}>FLEET MANAGEMENT:</a>
                     <p>How can we save you money? Let us show you. 
                     Decrease your operating costs and increase your productivity.</p>
                 </div>
                 <div className="item">
-                    <a href="#sales" onClick={console.log('clicked')}>SALES CONSULTING:</a>
+                    <a href="#sales" onClick={log}>SALES CONSULTING:</a>
                     <p>We'll help you improve your sales and closing rate, while improving
                     customer relationships and securing repeat business.</p>
                 </div>
                 <div className="item">
-                    <a href="#about" onClick={console.log('clicked')}>My CV:</a>
+                    <a href="#about" onClick={log}>My CV:</a>
                     <p>My experiences and knowledge. 
                     What I have accomplished and can for you.</p>
                 </div>

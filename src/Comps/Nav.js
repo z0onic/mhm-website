@@ -11,17 +11,6 @@ function Nav() {
             <label className="menu-button-container" htmlFor="menu-toggle">
                 <div className="menu-button"></div>
             </label>
-            {/* <ul className="menu">
-                <li>
-                    <Link className="nav-link" to="/">Home</Link>
-                </li>
-                <li>
-                    <Link className="nav-link" to="/services">Services</Link>
-                </li>
-                <li>
-                    <Link className="nav-link" to="/about">About</Link>
-                </li>
-            </ul> */}
             <ul className="menu">
                 <li>
                     <a className="nav-link" href="#home">Home</a>
