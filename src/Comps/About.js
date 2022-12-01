@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className="about-page">
+        <div id="about" className="about-page">
             <h1 className="about-title">Experience</h1>
             <p className="about-subtitle">
                 I have been selling or buying heavy equipment, 

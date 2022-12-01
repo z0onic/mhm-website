@@ -2,9 +2,9 @@ import React from 'react'
 
 function Services() {
     return (
-        <div className="services-page">
+        <div id="services" className="services-page">
             <div className="service-block">
-                <h1 className="service-title">FLEET MANAGEMENT</h1>
+                <h1 id="fleet" className="service-title">FLEET MANAGEMENT</h1>
                 <p className="service-intro">Fleet Management is controlling your 
                     fleet of equipment. From Safe operations, to monitoring everything 
                     about your equipment use, to reducing costs, to training, 
@@ -52,12 +52,12 @@ function Services() {
                         </p>
                     </li>
                 </ul>
-                <div className="contact">
+                <div className="services-contact">
                     <p>Contact me to discuss how: tom.hickson@mhm.coach or 704-930-9692</p>
                 </div>
             </div>
             <div className="service-block">
-                <h1 className="service-title">SALES CONSULTING</h1>
+                <h1 id="sales" className="service-title">SALES CONSULTING</h1>
                 <p className="service-intro">How we can help you and 
                     the Sales side of your business:
                 </p>

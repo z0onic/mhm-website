@@ -11,9 +11,11 @@ function Page() {
         <div className="page">
             <Nav />
             {/* <Outlet /> */}
-            <Title />
-            <Services />
-            <About />
+            <div className="content">
+                <Title />
+                <Services />
+                <About />
+            </div>
         </div>
     )
 }
