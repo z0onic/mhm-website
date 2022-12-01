@@ -4,14 +4,13 @@ function Services() {
     return (
         <div id="services" className="services-page">
             <div className="service-block">
-                <h1 id="fleet" className="service-title">FLEET MANAGEMENT</h1>
-                <p className="service-intro">Fleet Management is controlling your 
-                    fleet of equipment. From Safe operations, to monitoring everything 
-                    about your equipment use, to reducing costs, to training, 
-                    to maintenance and more. </p>
-                <span className="service-accent">I can HELP you Put into service a 
+                <h3 id="fleet" className="service-title">FLEET MANAGEMENT</h3>
+                <p className="service-intro">Controlling your 
+                    fleet of equipment. Including Safe operations, monitoring everything 
+                    about your equipment use, reducing costs, training, 
+                    maintenance and more. I can <span className="accent-word">HELP YOU</span> implement a 
                     Fleet Management system. Track your entire fleet of equipment including:
-                </span>
+                </p>
                 <ul className="service-list">
                     <li className="service-list-item">
                         <span className="list-accent">Usage:</span> 
@@ -22,7 +21,7 @@ function Services() {
                         <p>Learn how to lower your fuel burn. Manage your productive hours.</p>
                     </li>
                     <li className="service-list-item">
-                        <span className="list-accent">Maintenance Costs:</span> 
+                        <span className="list-accent">Maintenance Costs:</span><br />
                         <p>Lower your costs. Focus on $500 repairs instead of
                             $5000 ones, $5000 repairs instead of $25,000 or $50,000 
                             painful fixes.
@@ -52,12 +51,12 @@ function Services() {
                         </p>
                     </li>
                 </ul>
-                <div className="services-contact">
+                {/* <div className="services-contact">
                     <p>Contact me to discuss how: tom.hickson@mhm.coach or 704-930-9692</p>
-                </div>
+                </div> */}
             </div>
             <div className="service-block">
-                <h1 id="sales" className="service-title">SALES CONSULTING</h1>
+                <h3 id="sales" className="service-title">SALES CONSULTING</h3>
                 <p className="service-intro">How we can help you and 
                     the Sales side of your business:
                 </p>

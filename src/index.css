@@ -28,7 +28,7 @@ body {
 }
 
 :target {
-  scroll-margin-top: 140px;
+  scroll-margin-top: 100px;
 }
 
 /* HEADRER */
@@ -44,6 +44,7 @@ body {
   background: linear-gradient(153deg, rgba(239,51,64,1) 32%, rgba(91,2,2,1) 100%); 
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 
 /* MENU */
@@ -192,12 +193,9 @@ body {
   filter: brightness(95%);
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 100px;
-  z-index: -2;
+.content, 
+.home-page, 
+.about-page {
   width: 85vw;
   margin: 0 auto;
 }
@@ -207,7 +205,10 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 5vh;
+  padding-top: 5vh;
+  position: relative;
+  top: 100px;
+  height: 100vh;
 }
 
 .title-block {
@@ -240,34 +241,91 @@ body {
 
 .headshot {
   width: 20vw;
+  max-width: 400px;
+  min-width: 200px;
   position: relative;
   top: -80px;
   left: -22vw;
-  z-index: -2;
 }
 
 .items {
   display: flex;
-  margin-top: -8%;
 }
 
 .item {
   padding: 1em;
   margin: 1em;
+  transition: .4s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.2);
+  /* border-bottom: 7px solid var(--accent); */
 }
 
 .item a {
-  font-size: 1.2rem;
   text-decoration: none;
   color: black;
 }
 
-.items:hover {
-  color: red;
+.item h3 {
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .item p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-top: .5em;
   letter-spacing: .05em;
+}
+
+.wrapper {
+  background: linear-gradient(270deg, rgba(239,51,64,1) 50%, rgba(33,1,36,1) 50%);
+  color: var(--white);
+  width: 100vw;
+  padding: 50px;
+  height: 100vh;
+}
+
+.services-page {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 5vw;
+}
+
+.service-block {
+  width: 40vw;
+}
+
+.service-title {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.service-intro {
+  font-size: 1.1rem;
+  margin-bottom: 4em;
+  height: 8vh;
+}
+
+.accent-word {
+  font-size: 1.3rem;
+  letter-spacing: .05em;
+  font-weight: bold;
+}
+
+.service-list {
+  font-size: 1.1rem;
+}
+
+.service-list-item {
+  padding-left: 1em;
+  margin-bottom: 1em; 
+  letter-spacing: .01em;
+}
+
+.list-accent {
+  font-size: 1.1em;
 }
