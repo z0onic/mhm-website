@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mhm-website/static/css/main.88db965e.css",
+    "main.js": "/mhm-website/static/js/main.fe8093dd.js",
+    "static/js/787.5f267bfb.chunk.js": "/mhm-website/static/js/787.5f267bfb.chunk.js",
+    "static/media/placeholder.png": "/mhm-website/static/media/placeholder.6f004c67da21a16e0f8c.png",
+    "static/media/mhm_logo_white.png": "/mhm-website/static/media/mhm_logo_white.961cbcaaa001ca8eaa06.png",
+    "index.html": "/mhm-website/index.html",
+    "static/media/phone-solid.svg": "/mhm-website/static/media/phone-solid.d29c659d975125b0bf424b2b9ada1137.svg",
+    "static/media/envelope-solid.svg": "/mhm-website/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
+    "main.88db965e.css.map": "/mhm-website/static/css/main.88db965e.css.map",
+    "main.fe8093dd.js.map": "/mhm-website/static/js/main.fe8093dd.js.map",
+    "787.5f267bfb.chunk.js.map": "/mhm-website/static/js/787.5f267bfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88db965e.css",
+    "static/js/main.fe8093dd.js"
+  ]
+}
