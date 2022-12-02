@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         <div id="about" className="about-page">
-            <h1 className="about-title">Experience</h1>
+            <h1 className="about-title">My Experience</h1>
             <p className="about-subtitle">
                 I have been selling or buying heavy equipment, 
                 primarily in the Scrap and Recycling industries, for 40 years.
@@ -13,25 +13,26 @@ function About() {
             </h2>
             <ul className="about-list">
                 <li className="about-list-item">
-                    <span className="list-item-subtitle">Division of a Company:</span> 
-                    SMH Group-US. National Distributor of Atlas and Mantsinen material handlers.
+                    <span className="list-item-subtitle">Division of a Company: </span> 
+                    <p className="list-item-body">SMH Group-US. National Distributor of Atlas and Mantsinen 
+                    material handlers.</p>
                 </li>
                 <li className="about-list-item">
-                    <span className="list-item-subtitle">Procurement Group:</span> 
-                    PSC Metals. 12-member team responsible for purchasing everything 
-                    but raw materials.
+                    <span className="list-item-subtitle">Procurement Group: </span> 
+                    <p className="list-item-body">PSC Metals. 12-member team responsible for purchasing everything 
+                    but raw materials.</p>
                 </li>
                 <li className="about-list-item">
-                    <span className="list-item-subtitle">Fleet Management:</span> 
-                    The David J. Joseph Company. Managed nation-wide equipment fleet.
+                    <span className="list-item-subtitle">Fleet Management: </span> 
+                    <p className="list-item-body">The David J. Joseph Company. Managed nation-wide equipment fleet.</p>
                 </li>
                 <li className="about-list-item">
-                    <span className="list-item-subtitle">Dealer Management:</span> 
-                    Republic Crane & Equipment. Moved from end user direct sales 
-                    to setting up and managing dealers for National Distribution.
+                    <span className="list-item-subtitle">Dealer Management: </span> 
+                    <p className="list-item-body">Republic Crane & Equipment. Moved from end user direct sales 
+                    to setting up and managing dealers for National Distribution.</p>
                 </li>
             </ul>
-            <h2 className="about-list-header">With 18 years of direct sales experience.</h2>
+            <h2 className="about-list-header">With 18 years of direct sales experience!</h2>
             <ul className="about-list">
                 <li className="about-list-item">
                     Front line direct sales roles with high closing rates. 
@@ -60,7 +61,6 @@ function About() {
                     and built the foundation.
                 </li>
             </ul>
-            <div className="about-foot">Let me help you start upping your game!</div>
         </div>
     )
 }

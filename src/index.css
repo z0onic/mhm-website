@@ -154,6 +154,8 @@ body {
   transform: rotate(-405deg);
 }
 
+/* CONTACT */
+
 .contact {
   color: whitesmoke;
   position: fixed;
@@ -193,12 +195,16 @@ body {
   filter: brightness(95%);
 }
 
+/* PAGE */
+
 .content, 
 .home-page, 
 .about-page {
   width: 85vw;
   margin: 0 auto;
 }
+
+/* TITLE */
 
 .home-page {
   display: flex;
@@ -208,7 +214,7 @@ body {
   padding-top: 5vh;
   position: relative;
   top: 100px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .title-block {
@@ -254,7 +260,7 @@ body {
 
 .item {
   padding: 1em;
-  margin: 1em;
+  margin: 0 1em 2em 1em;
   transition: .4s ease-in-out;
 }
 
@@ -279,12 +285,15 @@ body {
   letter-spacing: .05em;
 }
 
+/* SERVICES */
+
 .wrapper {
   background: linear-gradient(270deg, rgba(239,51,64,1) 50%, rgba(33,1,36,1) 50%);
   color: var(--white);
   width: 100vw;
-  padding: 50px;
-  height: 100vh;
+  padding: 2vw;
+  min-height: 100vh;
+  margin-top: 100px;
 }
 
 .services-page {
@@ -299,13 +308,13 @@ body {
 }
 
 .service-title {
-  font-size: 1.7rem;
+  font-size: 2.5vw;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .service-intro {
-  font-size: 1.1rem;
+  font-size: 1.5vw;
   margin-bottom: 4em;
   height: 8vh;
 }
@@ -317,7 +326,8 @@ body {
 }
 
 .service-list {
-  font-size: 1.1rem;
+  font-size: 1.5vw;
+  padding: 1em;
 }
 
 .service-list-item {
@@ -328,4 +338,68 @@ body {
 
 .list-accent {
   font-size: 1.1em;
+}
+
+/* ABOUT PAGE */
+
+.about-page {
+  min-height: 100vh;
+  padding: 2vw;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2vw;
+  padding: 1em;
+}
+
+.about-title::before {
+  content: "";
+  position: absolute;
+  width: 162px;
+  height: 8px;
+  transform: skew(12deg);
+  background: var(--accent);
+  opacity: 70%;
+  z-index: -1;
+  margin-top: 20px;
+}
+
+.about-subtitle {
+  text-align: center;
+  margin-bottom: 1em;
+  letter-spacing: .04em;
+}
+
+.about-list {
+  margin: 1em 0 2em;
+}
+
+.about-list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  align-items: baseliune;
+}
+
+.list-item-subtitle {
+  /* font-size: 1.5vw; */
+  font-weight: 600;
+  width: 20%;
+}
+
+.list-item-body {
+  text-align: right;
+}
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  background: var(--red);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  font-weight: 600;
 }

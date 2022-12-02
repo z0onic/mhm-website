@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Title from './Title'
 import Services from './Services'
 import About from './About'
+// import Footer from './Footer'
 
 
 function Page() {
@@ -21,6 +22,9 @@ function Page() {
                 <Services />
             </div>
             <About />
+            <div className="footer">
+                <p className="about-foot">Let me help you start upping your game!</p>
+            </div>
         </div>
     )
 }
