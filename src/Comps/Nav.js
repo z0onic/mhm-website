@@ -16,7 +16,10 @@ function Nav() {
                     <a className="nav-link" href="#home">Home</a>
                 </li>
                 <li>
-                    <a className="nav-link" href="#services">Services</a>
+                    <a className="nav-link" href="#fleet">Fleet Management</a>
+                </li>
+                <li>
+                    <a className="nav-link" href="#sales">Sales Consulting</a>
                 </li>
                 <li>
                     <a className="nav-link" href="#about">About</a>

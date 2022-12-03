@@ -1,5 +1,5 @@
 import React from 'react'
-import Headshot from '../Imgs/placeholder.png'
+import Headshot from '../Imgs/headshot.jpg'
 
 function Title() {
     const log = () => console.log('yo')

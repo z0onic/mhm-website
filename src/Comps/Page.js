@@ -18,9 +18,7 @@ function Page() {
                 <About />
             </div> */}
             <Title />
-            <div className="wrapper">
-                <Services />
-            </div>
+            <Services />
             <About />
             <div className="footer">
                 <p className="about-foot">Let me help you start upping your game!</p>
