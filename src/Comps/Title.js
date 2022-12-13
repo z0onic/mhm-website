@@ -1,15 +1,16 @@
 import React from 'react'
-import Headshot from '../Imgs/headshot.jpg'
+import Headshot from '../Imgs/headshot-2.jpg'
 
 function Title() {
-    const log = () => console.log('yo')
 
     return (
         <div id="home" className="home-page">
             <div className="title-block">
-                <h1>MATERIAL HANDLER MANAGEMENT</h1>
-                <h2>FLEET MANAGEMENT AND SALES CONSULTING</h2>
-                <img className="headshot" src={Headshot} alt="headshot" />
+            <img className="headshot" src={Headshot} alt="headshot" />
+                <div className="title">
+                    <h1>MATERIAL HANDLER MANAGEMENT</h1>
+                    <h2>FLEET MANAGEMENT AND SALES CONSULTING</h2>
+                </div>
             </div>
             <div className="items">
                 <div className="item">

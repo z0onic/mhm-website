@@ -163,8 +163,10 @@ body {
   right: 15%;
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  gap: 20px;
+  max-width: 40%;
   font-size: 1.2rem;
+  margin-right: 10px;
 }
 
 .contact svg {
@@ -221,6 +223,13 @@ body {
 .title-block {
   align-self: flex-end;
   font-family: 'Oswald', sans-serif;
+  width: 100%;
+  display: flex;
+  gap: 5%;
+}
+
+.title {
+  width: 70%;
 }
 
 .title-block h1 {
@@ -234,25 +243,25 @@ body {
   font-weight: 800;
 }
 
-.title-block::before {
+.title h2::before {
   content: "";
   position: absolute;
-  width: 435px;
+  width: 433px;
   height: 15px;
   transform: skew(12deg);
   background: var(--accent);
   opacity: 70%;
   z-index: -1;
-  margin-top: 78px;
+  margin-top: 20px;
 }
 
 .headshot {
-  width: 40vw;
+  width: 25%;
   max-width: 400px;
   min-width: 200px;
-  position: relative;
+  /* position: relative;
   top: -80px;
-  left: -37vw;
+  left: -37vw; */
 }
 
 .items {
@@ -406,4 +415,48 @@ body {
   align-items: center;
   font-size: 2vw;
   font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+  .contact {
+    flex-direction: column;
+    margin-right: 120px;
+    font-size: 1rem;
+    top: 15px;
+    right: 0;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .title h2 {
+    font-size: 1.2rem;
+  }
+
+  .title h2::before {
+    margin-top: 17px;
+    width: 350px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .home-page, .wrapper {
+    min-height: 100%;
+  }
+  
+  .items {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .item {
+    padding: .5em; 
+  }
+
+  .item:hover {
+    transform: scale(1.1)
+  }
 }
