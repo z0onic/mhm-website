@@ -207,6 +207,10 @@ body {
   margin: 0 auto;
 }
 
+.service-block {
+  margin-top: 30px;
+}
+
 /* TITLE */
 
 .home-page {
@@ -226,10 +230,12 @@ body {
   width: 100%;
   display: flex;
   gap: 5%;
+  justify-content: flex-end;
 }
 
 .title {
-  width: 70%;
+  /* width: 70%; */
+  text-align: end;
 }
 
 .title-block h1 {
@@ -266,6 +272,7 @@ body {
 
 .items {
   display: flex;
+  margin-top: 20px;
 }
 
 .item {
@@ -321,13 +328,13 @@ body {
 }
 
 .service-title {
-  font-size: 2.5vw;
+  font-size: 1.4rem;
   text-align: center;
   margin-bottom: 1em;
 }
 
 .service-intro {
-  font-size: 1.5vw;
+  font-size: 1.2rem;
   margin-bottom: 4em;
   height: 8vh;
 }
@@ -339,7 +346,7 @@ body {
 }
 
 .service-list {
-  font-size: 1.5vw;
+  font-size: 1rem;
   padding: 1em;
 }
 
@@ -362,11 +369,11 @@ body {
 
 .about-title {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.4rem;
   padding: 1em;
 }
 
-.about-title::before {
+/* .about-title::before {
   content: "";
   position: absolute;
   width: 162px;
@@ -376,16 +383,21 @@ body {
   opacity: 70%;
   z-index: -1;
   margin-top: 20px;
-}
+} */
 
 .about-subtitle {
   text-align: center;
   margin-bottom: 1em;
   letter-spacing: .04em;
+  font-size: 1.2rem;
 }
 
 .about-list {
   margin: 1em 0 2em;
+}
+
+.about-list-header {
+  font-size: 1.3rem;
 }
 
 .about-list-item {
@@ -393,6 +405,7 @@ body {
   justify-content: space-between;
   margin-bottom: 1em;
   align-items: baseliune;
+  font-size: 1.1rem;
 }
 
 .list-item-subtitle {
@@ -403,6 +416,7 @@ body {
 
 .list-item-body {
   text-align: right;
+  font-size: 1.1rem;
 }
 
 .footer {
