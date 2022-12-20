@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mhm-website/static/css/main.d37b52da.css",
-    "main.js": "/mhm-website/static/js/main.19badeb9.js",
-    "static/js/787.5f267bfb.chunk.js": "/mhm-website/static/js/787.5f267bfb.chunk.js",
-    "static/media/headshot-2.jpg": "/mhm-website/static/media/headshot-2.faf8890793e83f2f670a.jpg",
-    "static/media/mhm_logo_white.png": "/mhm-website/static/media/mhm_logo_white.961cbcaaa001ca8eaa06.png",
-    "index.html": "/mhm-website/index.html",
-    "static/media/phone-solid.svg": "/mhm-website/static/media/phone-solid.d29c659d975125b0bf424b2b9ada1137.svg",
-    "static/media/envelope-solid.svg": "/mhm-website/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
-    "main.d37b52da.css.map": "/mhm-website/static/css/main.d37b52da.css.map",
-    "main.19badeb9.js.map": "/mhm-website/static/js/main.19badeb9.js.map",
-    "787.5f267bfb.chunk.js.map": "/mhm-website/static/js/787.5f267bfb.chunk.js.map"
+    "main.css": "/static/css/main.d37b52da.css",
+    "main.js": "/static/js/main.2881d461.js",
+    "static/js/787.5f267bfb.chunk.js": "/static/js/787.5f267bfb.chunk.js",
+    "static/media/headshot-2.jpg": "/static/media/headshot-2.faf8890793e83f2f670a.jpg",
+    "static/media/mhm_logo_white.png": "/static/media/mhm_logo_white.961cbcaaa001ca8eaa06.png",
+    "index.html": "/index.html",
+    "static/media/phone-solid.svg": "/static/media/phone-solid.d29c659d975125b0bf424b2b9ada1137.svg",
+    "static/media/envelope-solid.svg": "/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
+    "main.d37b52da.css.map": "/static/css/main.d37b52da.css.map",
+    "main.2881d461.js.map": "/static/js/main.2881d461.js.map",
+    "787.5f267bfb.chunk.js.map": "/static/js/787.5f267bfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d37b52da.css",
-    "static/js/main.19badeb9.js"
+    "static/js/main.2881d461.js"
   ]
 }
