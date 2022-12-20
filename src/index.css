@@ -42,9 +42,6 @@ body {
   font-family: 'Oswald', sans-serif;
   width: 100vw;
   height: 100px;
-  /* display: flex;
-  flex-direction: column;
-  padding: 1em .5em; */
   background: rgb(239,51,64);
   background: linear-gradient(153deg, rgba(239,51,64,1) 32%, rgba(91,2,2,1) 100%); 
   position: fixed;
@@ -216,6 +213,7 @@ body {
 .service-block {
   width: 85vw;
   margin: 0 auto;
+  font-size: 1.5rem;
 }
 
 .service-block {
@@ -271,7 +269,7 @@ h2, p, li {
 /* .title h2::before {
   content: "";
   position: absolute;
-  width: 433px;
+  width: 530px;
   height: 15px;
   transform: skew(12deg);
   background: var(--accent);
@@ -291,7 +289,7 @@ h2, p, li {
 
 .items {
   display: flex;
-  margin-top: 20px;
+  margin-top: 2em;
 }
 
 .item {
@@ -353,9 +351,9 @@ h2, p, li {
 }
 
 .service-intro {
-  font-size: 1.2rem;
-  margin-bottom: 4em;
-  height: 8vh;
+  /* font-size: 1.2rem; */
+  margin-bottom: 2em;
+  /* height: 8vh; */
 }
 
 .accent-word {
@@ -365,7 +363,7 @@ h2, p, li {
 }
 
 .service-list {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   padding: 1em;
 }
 
@@ -450,7 +448,7 @@ h2, p, li {
   font-weight: 600;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 905px) {
   .contact {
     flex-direction: column;
     margin-right: 120px;
@@ -472,9 +470,13 @@ h2, p, li {
   } */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 780px) {
   .home-page, .wrapper {
     min-height: 100%;
+  }
+
+  .title h2::before {
+    display: none;
   }
   
   .items {
@@ -489,6 +491,14 @@ h2, p, li {
 
   .item:hover {
     transform: scale(1.1)
+  }
+
+  .service-block {
+    font-size: 1rem;
+  }
+
+  .service-intro {
+    font-size: 1.2rem;
   }
 }
 
