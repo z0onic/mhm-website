@@ -188,10 +188,15 @@ body {
 }
 
 .cell:hover,
-.email:hover {
+.email a:hover {
   color: var(--accent);
   cursor: pointer;
   fill: var(--accent);
+}
+
+.email a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .logo {
@@ -259,7 +264,11 @@ h2, p, li {
   font-family: 'Quicksand', sans-serif;
 }
 
-.title h2::before {
+.title h2 {
+  border-bottom: var(--accent) 8px solid;
+}
+
+/* .title h2::before {
   content: "";
   position: absolute;
   width: 433px;
@@ -269,7 +278,7 @@ h2, p, li {
   opacity: 70%;
   z-index: -1;
   margin-top: 20px;
-}
+} */
 
 .headshot {
   width: 25%;
@@ -458,11 +467,9 @@ h2, p, li {
     font-size: 1.2rem;
   }
 
-  .title h2::before {
-    margin-top: 17px;
-    width: 350px;
-    height: 10px;
-  }
+  /* .title h2::before {
+    display: none;
+  } */
 }
 
 @media screen and (max-width: 700px) {
@@ -516,17 +523,10 @@ h2, p, li {
     margin-top: 20px;
   }
 
-  .title {
-    /* text-align: justify; */
-  }
-  
-  .title h2 {
-    text-align: center;
-  }
-
-  .title h2::before {
+  /* .title h2::before {
     display: none;
-  }
+    width: 433px;
+  } */
 
   .item {
     margin-bottom: 1em;
