@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/mhm-website/static/css/main.d37b52da.css",
+    "main.css": "/mhm-website/static/css/main.064ef9f0.css",
     "main.js": "/mhm-website/static/js/main.19badeb9.js",
     "static/js/787.5f267bfb.chunk.js": "/mhm-website/static/js/787.5f267bfb.chunk.js",
+    "static/media/cranes-02.png": "/mhm-website/static/media/cranes-02.2904b2ea02478775b251.png",
     "static/media/headshot-2.jpg": "/mhm-website/static/media/headshot-2.faf8890793e83f2f670a.jpg",
     "static/media/mhm_logo_white.png": "/mhm-website/static/media/mhm_logo_white.961cbcaaa001ca8eaa06.png",
     "index.html": "/mhm-website/index.html",
     "static/media/phone-solid.svg": "/mhm-website/static/media/phone-solid.d29c659d975125b0bf424b2b9ada1137.svg",
     "static/media/envelope-solid.svg": "/mhm-website/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
-    "main.d37b52da.css.map": "/mhm-website/static/css/main.d37b52da.css.map",
+    "main.064ef9f0.css.map": "/mhm-website/static/css/main.064ef9f0.css.map",
     "main.19badeb9.js.map": "/mhm-website/static/js/main.19badeb9.js.map",
     "787.5f267bfb.chunk.js.map": "/mhm-website/static/js/787.5f267bfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d37b52da.css",
+    "static/css/main.064ef9f0.css",
     "static/js/main.19badeb9.js"
   ]
 }
