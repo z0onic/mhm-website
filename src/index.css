@@ -218,6 +218,7 @@ body {
 
 .service-block {
   margin-top: 30px;
+  text-shadow: 2px 2px var(--accent-dark);
 }
 
 /* TITLE */
@@ -329,7 +330,12 @@ h2, p, li {
 }
 
 .red {
-  background: var(--red);
+  background-color: var(--red);
+  background-image: url('./Imgs/cranes-02.png');
+  background-position-y: 60%;
+  background-position-x: 80%;
+  /* background-size: cover; */
+  /* mix-blend-mode: luminosity; */
 }
 
 .purple {
