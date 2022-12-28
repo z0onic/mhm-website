@@ -218,7 +218,7 @@ body {
 
 .service-block {
   margin-top: 30px;
-  text-shadow: 2px 2px var(--accent-dark);
+  text-shadow: 1px 1px 2px var(--accent-dark);
 }
 
 /* TITLE */
@@ -331,8 +331,8 @@ h2, p, li {
 
 .red {
   background-color: var(--red);
-  background-image: url('./Imgs/cranes-04.png');
-  background-position-y: 40%;
+  background-image: url('./Imgs/bulldozer-01.jpg');
+  /* background-position-y: 40%; */
   /* background-position-x: 80%; */
   background-size: cover;
   /* mix-blend-mode: luminosity; */
@@ -395,7 +395,22 @@ h2, p, li {
 .about-title {
   text-align: center;
   font-size: 1.4rem;
-  padding: 1em;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.in-logo {
+  width: 35px;
+  height: auto;
+  cursor: pointer;
+}
+
+.in-logo:hover {
+  scale: 1.2;
+  fill: black;
 }
 
 /* .about-title::before {
@@ -446,13 +461,13 @@ h2, p, li {
 
 .footer {
   width: 100vw;
-  height: 50px;
+  height: 75px;
   background: var(--red);
   color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -507,6 +522,10 @@ h2, p, li {
 
   .service-intro {
     font-size: 1.2rem;
+  }
+
+  .red {
+    background-position-x: 20%;
   }
 }
 

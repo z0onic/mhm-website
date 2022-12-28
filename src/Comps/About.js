@@ -1,9 +1,14 @@
 import React from 'react'
+import {ReactComponent as In} from '../Imgs/in-logo.svg'
 
 function About() {
+    const handleClick = () => window.open('http://linkedin.com/in/thomashickson', '_blank', 'noopener, noreferrer')
     return (
         <div id="about" className="about-page">
-            <h1 className="about-title">My Experience</h1>
+            <div className="about-title">
+                <h1 className="about-title">My Experience</h1>
+                <In className='in-logo' onClick={handleClick}/>
+            </div>
             <p className="about-subtitle">
                 I have been selling or buying heavy equipment, 
                 primarily in the Scrap and Recycling industries, for 40 years.
