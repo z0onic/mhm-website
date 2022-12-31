@@ -52,9 +52,6 @@ function Services() {
                             </p>
                         </li>
                     </ul>
-                    {/* <div className="services-contact">
-                        <p>Contact me to discuss how: tom.hickson@mhm.coach or 704-930-9692</p>
-                    </div> */}
                 </div>
             </div>
             <div className="wrapper purple">
