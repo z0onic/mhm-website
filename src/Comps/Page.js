@@ -1,22 +1,19 @@
+import { Helmet } from 'react-helmet-async'
 import React from 'react'
-// import { Outlet } from 'react-router-dom'
 import Nav from './Nav'
 import Title from './Title'
 import Services from './Services'
 import About from './About'
-// import Footer from './Footer'
 
 
 function Page() {
     return (
         <div className="page">
+            <Helmet>
+                <title>Materail Hanldler Management</title>
+                <meta name='description' content='Consulting for the heavy machinery industry by Tom Hickson. Get help with fleet management and sales.' />
+            </Helmet>
             <Nav />
-            {/* <Outlet /> */}
-            {/* <div className="content">
-                <Title />
-                <Services />
-                <About />
-            </div> */}
             <Title />
             <Services />
             <About />
