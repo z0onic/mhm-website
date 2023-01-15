@@ -11,7 +11,7 @@ function Page() {
         <div className="page">
             <Helmet>
                 <meta name="keywords" content="heavy machinery, fleet management, 
-                    consulting, sales, equipment, industrial" />
+                    consulting, sales, equipment, industrial, hickson, thomas, mhm, material handler" />
                 <meta name="description" content="Our consulting company specializes in the sale of heavy machinery and 
                     fleet management for industrial companies. We offer expert advice and solutions to help optimize your 
                     equipment and operations." />
