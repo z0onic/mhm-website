@@ -10,8 +10,13 @@ function Page() {
     return (
         <div className="page">
             <Helmet>
-                <title>Materail Hanldler Management</title>
-                <meta name='description' content='Consulting for the heavy machinery industry by Tom Hickson. Get help with fleet management and sales.' />
+                <meta name="keywords" content="heavy machinery, fleet management, 
+                    consulting, sales, equipment, industrial" />
+                <meta name="description" content="Our consulting company specializes in the sale of heavy machinery and 
+                    fleet management for industrial companies. We offer expert advice and solutions to help optimize your 
+                    equipment and operations." />
+                <meta name="jon" content="Material Handler Management" />
+                <title>Material Handler Management - Consulting by Tom Hickson</title>
             </Helmet>
             <Nav />
             <Title />
