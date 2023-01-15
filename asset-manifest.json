@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c16dd5f.css",
-    "main.js": "/static/js/main.c7e3178c.js",
+    "main.js": "/static/js/main.299b0fb7.js",
     "static/js/787.5f267bfb.chunk.js": "/static/js/787.5f267bfb.chunk.js",
     "static/media/cranes-03.png": "/static/media/cranes-03.39fc7bffcb8b814f0d10.png",
     "static/media/bulldozer-01.jpg": "/static/media/bulldozer-01.f0a5209ff269b7f3ae02.jpg",
@@ -12,11 +12,11 @@
     "static/media/phone-solid.svg": "/static/media/phone-solid.d29c659d975125b0bf424b2b9ada1137.svg",
     "static/media/envelope-solid.svg": "/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
     "main.5c16dd5f.css.map": "/static/css/main.5c16dd5f.css.map",
-    "main.c7e3178c.js.map": "/static/js/main.c7e3178c.js.map",
+    "main.299b0fb7.js.map": "/static/js/main.299b0fb7.js.map",
     "787.5f267bfb.chunk.js.map": "/static/js/787.5f267bfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c16dd5f.css",
-    "static/js/main.c7e3178c.js"
+    "static/js/main.299b0fb7.js"
   ]
 }
